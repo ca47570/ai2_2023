@@ -1,0 +1,9 @@
+PUT http://localhost:37570/todos/3
+Content-Type: application/json
+
+{
+  "title": "Zadanie pierwsze",
+  "deadline": "2137-01-04",
+  "completed": true,
+  "archived": true
+}
